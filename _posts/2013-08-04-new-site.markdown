@@ -1,0 +1,34 @@
+---
+layout: post
+title: Hello World, Says New Website
+date:   2013-08-04 17:28:48
+categories: hello world
+---
+
+Hello, nice of you to swing by. Things are just getting going, you haven't missed much at all. My name's Tom, pleased to meet you.
+
+I've come up with three reasons for this website:
+
+1. Trying stuff out 
+1. Keeping track of things I might forget
+1. Writing things up to understand and explain them.
+
+For example:
+
+1. I'm trying out using [Jekyll](//jekyllrb.com) and [Github Pages](//pages.github.com) to make and host this website.
+1. I might forget the [Markdown](//daringfireball.net/projects/markdown/) syntax for links &ndash; `[link text](http://example.com)`.
+1. This little list is my off-the-top-of-the-head manifesto, which I'd barely thought of before starting writing. 
+
+Coming Soon to a Screen near you:
+
+1. Better-than-default styling!
+1. Bookmarks, links and snippets!
+1. 
+   * How-tos, reviews, articles! 
+   * Letters (from a-z) in countless combinations! 
+   * Numerals, whitespace and all manner of punctuation?!@#
+
+That's all for now, hope to see you around.
+
+/Tom
+
