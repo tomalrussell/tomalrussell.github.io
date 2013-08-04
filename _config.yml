@@ -1,3 +1,5 @@
 name: Made by Tom
 markdown: redcarpet
 pygments: true
+
+permalink: /:year/:month/:day/:title/
