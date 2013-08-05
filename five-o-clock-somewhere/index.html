@@ -1,0 +1,47 @@
+---
+layout: default
+title: It's 5 o'clock somewhere!
+---
+
+<h1 class="page-title">It's 5 o'clock in &hellip;</h1>
+
+<p id="location"></p>
+
+<script type="text/javascript">
+  var hours, places, index, place, Today, outElement;
+  Today = new Date();
+  
+  hours = Today.getUTCHours();
+
+  places = {
+    0: 'London',
+    1: 'Rome',
+    2: 'Athens',
+    3: 'Nairobi',
+    4: 'Dubai',
+    5: 'Lahore',
+    6: 'Dhaka',
+    7: 'Jakarta',
+    8: 'Shanghai',
+    9: 'Tokyo',
+    10:'Sydney',
+    11:'Palikir',
+    12:'Suva',
+    13:'Alofi',
+    14:'Papeete',
+    15:'Adak',
+    16:'Anchorage',
+    17:'San Francisco',
+    18:'Denver',
+    19:'Lima',
+    20:'New York',
+    21:'Rio de Janeiro',
+    22:'Nuuk',
+    23:'Ouagadougou'
+  }
+
+  index = (17 - hours + 24) % 24;
+  place = places[index];
+
+  document.getElementById('location').textContent = place;
+</script>
