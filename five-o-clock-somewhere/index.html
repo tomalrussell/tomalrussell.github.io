@@ -6,8 +6,9 @@ title: It's 5 o'clock somewhere!
 <h1 class="page-title">It's 5 o'clock in &hellip;</h1>
 
 <p id="location"></p>
-
+<p>(Unless summer shifted the timezones.)</p>
 <script type="text/javascript">
+function updateDate(){
   var hours, places, index, place, Today, outElement;
   Today = new Date();
   
@@ -42,6 +43,19 @@ title: It's 5 o'clock somewhere!
 
   index = (17 - hours + 24) % 24;
   place = places[index];
+  var mins = Today.getMinutes();
+  var secs = Today.getSeconds();
+  if(mins < 10){
+    mins = '0' + mins;
+  }
+  if(secs < 10){
+    secs = '0' + secs;
+  } 
 
+  place += ' (17:' + mins +  ':' + secs + ')';
   document.getElementById('location').textContent = place;
+}
+
+updateDate();
+setInterval(updateDate, 1000);
 </script>

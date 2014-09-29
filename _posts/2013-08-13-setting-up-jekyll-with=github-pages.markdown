@@ -1,50 +1,33 @@
 ---
 layout: post
-title: Getting Set with Github and Jekyll 
+title: Static Site with Github and Jekyll 
 date:   2013-08-13 22:15:23
 categories: how-to
 ---
 
-So, a quick overview of how this site is made and hosted. The site is hosted using [Github Pages](https://pages.github.com/), which uses Jekyll to generate static HTML websites from a bunch of text files and some templates. 
+This site is hosted using [Github Pages](https://pages.github.com/), which uses Jekyll to generate static HTML websites from text files (written in [Markdown](http://daringfireball.net/projects/markdown/)) and some templates. 
 
-Two main advantages:
+Here's a quick rundown of what's required to set one of these up:
 
-1. Free hosting
-1. Hassle-reduced (nearly hassle-free) writing.
+On a local machine:
 
-Setup is straightforward, but there is a fair list of things you'll need.
-
-On your local machine:
-
-* a text editor, for writing stuff
-* [Git](http://git-scm.com/downloads), for saving stuff and talking to Github
-* [Ruby](http://www.ruby-lang.org/en/downloads/), the language that Jekyll is written in / the interpreter that it runs on
-* [RubyGems](http://rubygems.org/pages/download), a package manager for Ruby projects
-* [Jekyll](http://jekyllrb.com/), for turning the stuff you wrote into a website
+* a text editor, for writing 
+* [Git](http://git-scm.com/downloads), for version control, and to push to Github.
+* [Ruby](http://www.ruby-lang.org/en/downloads/), the language that Jekyll is written in / the interpreter that it runs on.
+* [Jekyll](http://jekyllrb.com/), a ruby gem (installable module) that generates the site and can run locally to preview changes.
 
 On the internet:
 
 * a [Github](https://github.com/) user account, where the site will be hosted
-* a domain name, if you want a non-github address
+* a domain name, if you want a non-github web address (I just used [123-Reg](https://www.123-reg.co.uk/), but there are plenty of options).
 
-And finally, before we begin - Documentation (for things I might miss here):
+And finally, documentation:
 
 * [Github Pages Help](https://help.github.com/categories/20/articles)
 * [Jekyll Docs](http://jekyllrb.com/docs/home/)
 * [Markdown Syntax](http://daringfireball.net/projects/markdown/basics)
 
-Installing Stuff
-----------------
 
-On Ubuntu:
+That's a fair list of prerequisites. I thought about making this a full step-by-step, but I'm sure I'd miss out something crucial.
 
-{% highlight sh %}
-sudo apt-get install git-core
-sudo apt-get install ruby
-sudo apt-get install rubygems
-gem install jekyll
-jekyll new myblog
-cd myblog
-jekyll serve
-# => Now browse to http://localhost:4000
-{% endhighlight %}
+In outline: install Git, Ruby and Jekyll; run the Jekyll quick start; push to Github.
