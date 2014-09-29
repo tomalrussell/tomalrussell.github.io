@@ -1,5 +1,5 @@
 name: Made by Tom
 markdown: redcarpet
-pygments: true
+highlighter: pygments 
 
 permalink: /:year/:month/:day/:title/
