@@ -6,16 +6,30 @@
   margin: 0;
   padding: 0;
 }
-html, body { height: 100%; }
-body {
+html {
   background-color: #FFF;
   font: 16px Helvetica, Arial, sans-serif;
 }
-h1, h2, h3, h4, h5, h6{ font-size: 100%; }
-p{ margin: 1em 0; }
-a{ color: #00a; }
-a:hover{ color: #000; }
-a:visited{ color: #a0a; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+p {
+  margin: 1em 0;
+}
+a {
+  color: #00a;
+}
+a:hover {
+  color: #000;
+}
+a:visited{
+  color: #a0a;
+}
 
 /**
  * Home
@@ -27,7 +41,7 @@ a:visited{ color: #a0a; }
   margin-bottom: 2em;
 }
 .posts li {
-  line-height: 1.75em;
+  line-height: 1.75;
 }
 .posts span {
   color: #aaa;
