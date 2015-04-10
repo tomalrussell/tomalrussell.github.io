@@ -53,4 +53,4 @@ layout: default
 {% endraw %}{% endhighlight %}
 
 
-Check it out: [{{ demos | prepend: site.baseurl }}]({{ demos | prepend: site.baseurl }})
+Check it out: [/demos](/demos)
