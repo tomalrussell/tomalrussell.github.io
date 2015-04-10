@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lister: a simple localStorage wrapper
+title: Lister, a simple localStorage wrapper
 date: 2015-03-06 13:20:06
 categories:
 ---
