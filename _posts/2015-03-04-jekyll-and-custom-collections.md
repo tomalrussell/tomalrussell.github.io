@@ -5,9 +5,11 @@ date: 2015-03-04 15:25:37
 categories:
 ---
 
+I just noticed that Jekyll can handle custom collections (ie. not just posts and pages)
+
 Custom collections can be lists of anything -
 
-in \_config.yml:
+declare the collection in \_config.yml:
 
 
 {% highlight yaml %}
@@ -17,7 +19,7 @@ collections:
     permalink: /demos/:path/
 {% endhighlight %}
 
-then a new folder '_demos', with a 'test.md' file in it:
+make a new folder '_demos', with a 'test.md' file in it:
 
 
 {% highlight yaml %}
@@ -30,7 +32,7 @@ Test demo content
 
 {% endhighlight %}
 
-and, for completeness, another new folder, 'demos', with an 'index.html' file in it:
+and, for an archive page as an index to the collection, another new folder, 'demos', with an 'index.html' file in it:
 
 
 {% highlight liquid %}{% raw %}
@@ -49,3 +51,6 @@ layout: default
 </ul>
 
 {% endraw %}{% endhighlight %}
+
+
+Check it out: [{{ demos | prepend: site.baseurl }}]({{ demos | prepend: site.baseurl }})
