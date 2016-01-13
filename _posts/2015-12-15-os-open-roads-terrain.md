@@ -58,4 +58,4 @@ And with roads overlaid:
 
 Any thoughts on what to do next? Do roads go around hills? Which is the highest
 road in Britain, or has the farthest views? (Should there be a comments section here?
-Is it a good idea to link to [Twitter](https://twitter.com/tlrss)?)
+Is it a good idea to just link to [Twitter](https://twitter.com/tlrss) instead?)
