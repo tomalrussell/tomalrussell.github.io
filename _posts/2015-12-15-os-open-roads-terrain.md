@@ -56,3 +56,6 @@ And with roads overlaid:
 
 [![North-east roads and elevation](/images/thumb/os_elevation-roads-ne.png)](/images/full/os_elevation-roads-ne.png)
 
+Any thoughts on what to do next? Do roads go around hills? Which is the highest
+road in Britain, or has the farthest views? (Should there be a comments section here?
+Is it a good idea to link to [Twitter](https://twitter.com/tlrss)?)
