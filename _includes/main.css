@@ -95,7 +95,7 @@ hr{
 .links a,
 .post-list a {
   width: 100%;
-  transition: all 1s ease;
+  transition: background-color 1s ease;
 }
 .links a:hover,
 .post-list a:hover {
