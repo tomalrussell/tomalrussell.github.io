@@ -1,0 +1,40 @@
+/**
+ * Syntax highlighting styles
+ */
+.highlight {
+    background: #fff;
+}
+.c     { color: #998; font-style: italic }
+.err   { color: #a61717; background-color: #e3d2d2 }
+.k,.o,.gs,.kc,.kd,.kp,.kr,.ow{ font-weight: bold } 
+.cm    { color: #998; font-style: italic }
+.cp    { color: #999; font-weight: bold }
+.c1    { color: #998; font-style: italic }
+.cs    { color: #999; font-weight: bold; font-style: italic }
+.gd    { color: #000; background-color: #fdd } 
+.gd .x { color: #000; background-color: #faa }
+.ge    { font-style: italic }
+.gr    { color: #a00 } 
+.gh    { color: #999 }
+.bp    { color: #999 } 
+.gi    { color: #000; background-color: #dfd }
+.gi .x { color: #000; background-color: #afa }
+.go    { color: #888 } 
+.gp    { color: #555 }
+.gu    { color: #aaa }
+.gt    { color: #a00 }
+.kt    { color: #458; font-weight: bold }
+.s     { color: #d14 }
+.nb    { color: #0086B3 }
+.nc    { color: #458; font-weight: bold } 
+.ni    { color: #800080 }
+.ne    { color: #900; font-weight: bold }
+.nf    { color: #900; font-weight: bold }
+.nn    { color: #555 } 
+.nt    { color: #000080 }
+.w     { color: #bbb }
+.m,.mf,.mh,.mi,.mo,.il{ color: #099 }
+.sb,.sc,.sd,.s2,.se,.sh,.si,.sx,.s1{ color: #d14 }
+.sr    { color: #009926 }
+.ss    { color: #990073 }
+.no,.nv,.na,.vc,.vg,.vi{ color: #008080 } 

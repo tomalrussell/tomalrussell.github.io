@@ -1,0 +1,177 @@
+/*! extracted from normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+footer{
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0 0;
+  line-height: 1.1;
+}
+p {
+  margin: 0px 0px 0.67em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+strong {
+  font-weight: bold;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+/*! custom styles | MIT License | tomr.me */
+body {
+    margin: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:1.8em;
+    color: #1e1e1e;
+}
+a {
+  color: #1e1e1e;
+}
+a:visited {
+  color: #5c5c5c;
+}
+footer{
+  margin-top: 2em;
+  text-align: right;
+}
+hr{
+  border-bottom: 1em solid #1e1e1e;
+  clear: both;
+}
+.face {
+  max-width: 50%;
+  margin: 0.5em 0;
+  float: right;
+}
+.post-list{
+  list-style: none;
+  padding: 0;
+}
+.post-list li {
+  display: table-row;
+}
+.post-list a {
+    display: table-cell;
+    width: 100%;
+}
+.post-list .post-meta {
+  display:table-cell;
+  min-width: 12em;
+  text-align: right;
+  padding-right: 0.5em;
+}
+.links {
+  border-left: 1em solid #1e1e1e;
+  list-style: outside none none;
+  padding: 0em 0em 2em 0em;
+}
+.links a {
+  display: block;
+  padding: 0 0.25em 0.2em 0.75em;
+  margin-bottom: 0.2em;
+}
+.post-list a {
+    padding: 0 0.25em 0.2em;
+}
+.links a,
+.post-list a {
+  width: 100%;
+  transition: all 1s ease;
+}
+.links a:hover,
+.post-list a:hover {
+  background-color: #eee;
+}
+.links a:active,
+.post-list a:active,
+.links a:focus, 
+.post-list a:focus {
+  outline: 0;
+  background-color: #d9d9d9;
+}
+@media screen and (max-width: 90em){
+  body{
+    font-size:1.4em;
+  }
+}
+@media screen and (max-width: 40em){
+  body{
+    font-size:1.2em;
+  }
+  .face {
+    max-width: 33%;
+  }
+}
+@media screen and (max-width: 50em){
+  .post-list .post-meta {
+    min-width: 8em;
+  }
+}
+@media screen and (max-width: 40em){
+  .post-list li {
+    display: list-item;
+  }
+  .post-list a,
+  .post-list .post-meta {
+    display: block;
+    text-align: left;
+    padding: 0;
+  }
+  .post-list a:hover {
+    background:0;
+  }
+}
+article {
+  max-width: 45em;
+}
+blockquote {
+  border-left: 4px solid #222; 
+  padding-left: 1em;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+img {
+  max-width: 100%;
+}
+iframe {
+  width: 100%;
+  border:0;
+}
+pre,
+code {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #eef;
+}
+code {
+  padding: 1px 5px;
+}
+pre {
+  padding: 8px 12px;
+  overflow-x: scroll;
+}
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
