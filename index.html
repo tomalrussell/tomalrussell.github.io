@@ -1,19 +1,37 @@
 ---
-layout: default
+layout: bare 
 ---
 
-<div class="home">
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+<h1>Tom Russell</h1>
+<img class="face" width="300" src="images/face.svg" alt="Tom's face">
+<p>Making maps and websites.
+<hr />
+    
+<h2>Posts:</h2>
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+  
+<h2>Elsewhere:</h2>
+<ul class="links">
+  <li>
+    <a href="https://github.com/tomalrussell">
+      https://<strong>github</strong>.com/tomalrussell
+    </a>
+  </li>
+  <li>
+    <a href="https://twitter.com/tlrss">
+      https://<strong>twitter</strong>.com/tlrss
+    </a>
+  </li>
+  <li>
+    <a href="http://tomsreading.tumblr.com/">
+      http://toms<strong>reading</strong>.tumblr.com/
+    </a>
+  </li>
+</ul>

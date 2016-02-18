@@ -6,6 +6,134 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+<style>
+    /*! extracted from normalize.css v3.0.2 | MIT License | git.io/normalize */
+    html {
+      font-family: sans-serif;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    footer{
+      display: block;
+    }
+    h1 {
+      font-size: 2em;
+      margin: 0.67em 0 0;
+    }
+    p {
+      margin: 0px 0px 0.67em;
+    }
+    img {
+      border: 0;
+    }
+    svg:not(:root) {
+      overflow: hidden;
+    }
+    a {
+      background-color: transparent;
+    }
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+    strong {
+      font-weight: bold;
+    }
+    hr {
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      height: 0;
+    }
+    /*! custom styles | MIT License | tomr.me */
+    body {
+        margin: 1em;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size:1.8em;
+        color: #1e1e1e;
+    }
+    a {
+      color: #1e1e1e;
+    }
+    a:visited {
+      color: #5c5c5c;
+    }
+    footer{
+      margin-top: 2em;
+      text-align: right;
+    }
+    hr{
+      border-bottom: 1em solid #1e1e1e;
+      clear: both;
+    }
+    .face {
+      max-width: 50%;
+      margin: 0.5em 0;
+      float: right;
+    }
+    .post-list{
+      list-style: none;
+      padding: 0;
+    }
+    .post-list li {
+      display: table-row;
+    }
+    .post-list a {
+      display: table-cell;
+    }
+    .post-list .post-meta {
+      display:table-cell;
+      min-width: 12em;
+      text-align: right;
+      padding-right: 1em;
+    }
+    @media screen and (max-width: 50em){
+      .post-list .post-meta {
+        min-width: 8em;
+      }
+    }
+    @media screen and (max-width: 40em){
+    .post-list li {
+    display: list-item;
+    }
+    .post-list a,
+    .post-list .post-meta {
+    display: block;
+    text-align: left;
+    }
+    }
+    .links {
+      border-left: 1em solid #1e1e1e;
+      list-style: outside none none;
+      padding: 0em 0em 2.5em 0em;
+    }
+    .links a {
+      display: block;
+      width: 100%;
+      padding: 0 0.25em 0.2em 0.75em;
+      transition: all 1s ease;
+    }
+    .links a:hover {
+      background-color: #eee;
+    }
+    .links a:active,
+    .links a:focus {
+      outline: 0;
+      background-color: #d9d9d9;
+    }
+    @media screen and (max-width: 90em){
+      body{
+        font-size:1.4em;
+      }
+    }
+    @media screen and (max-width: 40em){
+      body{
+        font-size:1.2em;
+      }
+      .face {
+        max-width: 33%;
+      }
+    }
+</style>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
