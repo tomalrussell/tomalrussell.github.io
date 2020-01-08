@@ -1,5 +1,5 @@
 # Site settings
-title: Tom Russell | Web developer
+title: Tom Russell | Research Software
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://made-by-tom.co.uk" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
